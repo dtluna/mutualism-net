@@ -91,6 +91,18 @@ bcrypt = ["bcrypt"]
 
 [[package]]
 category = "main"
+description = "Bootstrap support for Django projects"
+name = "django-bootstrap4"
+optional = false
+python-versions = ">=3.6,<4.0"
+version = "2.0.1"
+
+[package.dependencies]
+beautifulsoup4 = ">=4.8.0,<5.0.0"
+django = ">=2.2,<4.0"
+
+[[package]]
+category = "main"
 description = "Django extension to allow working with 'clusters' of models as a single unit, independently of the database"
 name = "django-modelcluster"
 optional = false
@@ -397,7 +409,7 @@ python-versions = "*"
 version = "1.2.9"
 
 [metadata]
-content-hash = "2d596514d008b3c35f252b686ad8e5cd00fa3c8d0287c006d4f2bc996326daac"
+content-hash = "5cd268898b101857de1c03ed1e12c8be505141db92c324f344d318716f2a6b85"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -433,6 +445,10 @@ colorama = [
 django = [
     {file = "Django-3.0.7-py3-none-any.whl", hash = "sha256:e1630333248c9b3d4e38f02093a26f1e07b271ca896d73097457996e0fae12e8"},
     {file = "Django-3.0.7.tar.gz", hash = "sha256:5052b34b34b3425233c682e0e11d658fd6efd587d11335a0203d827224ada8f2"},
+]
+django-bootstrap4 = [
+    {file = "django-bootstrap4-2.0.1.tar.gz", hash = "sha256:f1fbe0ab1e6357072642b25c0e7473b3bfe31d9f28eaacad237474a94f8df792"},
+    {file = "django_bootstrap4-2.0.1-py3-none-any.whl", hash = "sha256:7baf22ab8570b5147b566b3431738c4f3558604ad7a8140f69d784a04c9eb1c8"},
 ]
 django-modelcluster = [
     {file = "django-modelcluster-5.0.2.tar.gz", hash = "sha256:c7a42cf9b93d1161a10bf59919f7ee52d996a523a4134b2a136f6fe1eba7a2fa"},
